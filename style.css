@@ -10,30 +10,37 @@ html {
 
 .container{position:relative}
 
-.btn{
-    padding:10px 40px;
-        border-radius:15px;
 
-}
-.btn-danger{
-    background:#0984e3;
-    border:#0984e3;
-}
-.btn-danger:hover{
-    background:#d63031;
-    border: 4px solid #d63031;
-}
-hr{
-    width: 185px;
-    border: #d63031 solid 1px;
-        opacity: 1;
-    border-radius:12px;
-    vertical-align: center;
-}
+
 .buffer{
     height:9rem;
 }
-a, a:hover {
+
+.btn{
+  background:#05004a;
+  border:none;
+  outline-offset: 4px;
+  padding: 0;
+  border-radius: 15px;
+}
+a {
+  background:darkblue;
+  color: white;
+  display:block;
+  text-decoration: none;
+  transform:translateY(-8px);
+  border-radius: 15px;
+  padding: 10px 40px;
+  transition:transform 400ms ease;
+
+}
+a:hover {
     color: white;
-    text-decoration: none;
+}
+a:hover{
+  transform:translateY(-3px);
+}
+section {
+  width:50%;
+  /* transform:translateX(-50%) */
 }
